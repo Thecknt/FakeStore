@@ -9,18 +9,18 @@ export const NavBar = () => {
           <a className="navbar-brand" href="#">
           <img src={ iconImage} alt="Icon" />
           </a>
-          <button
+          {/* <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
+             data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
+          </button> */}
+          {/* <div className="collapse navbar-collapse" id="navbarNav"> */}
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className={"nav-link"} to="/">
@@ -40,7 +40,7 @@ export const NavBar = () => {
                 </NavLink>
               </li>
             </ul>
-          </div>
+          {/* </div> */}
         </div>
       </nav>
     </>

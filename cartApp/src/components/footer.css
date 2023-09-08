@@ -27,4 +27,12 @@
         flex: 0 0 auto;
         width: 64%;
     }
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: row;
+      }
+      .nav-link{
+        margin: 10px;
+      }
 }
