@@ -1,0 +1,30 @@
+.footer{
+    height: 150px;
+    color: white;
+}
+
+.textH6{
+    font-size:20px; 
+    display: flex;
+    align-items: start;
+    padding-left: 30px;
+    padding-left: 70%;
+    margin-bottom: 0px;
+}
+
+.datos{
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+@media (max-width: 500px) {
+    .col-3 {
+        flex: 0 0 auto;
+        width: 64%;
+    }
+}
